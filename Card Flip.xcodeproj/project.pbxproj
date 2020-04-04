@@ -13,6 +13,8 @@
 		901FC1202431433600F89ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901FC11F2431433600F89ECC /* Assets.xcassets */; };
 		901FC1232431433600F89ECC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901FC1222431433600F89ECC /* Preview Assets.xcassets */; };
 		901FC1262431433600F89ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901FC1242431433600F89ECC /* LaunchScreen.storyboard */; };
+		901FC12E2431439000F89ECC /* About Threes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 901FC12D2431439000F89ECC /* About Threes.rtf */; };
+		901FC13024314A6E00F89ECC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901FC12F24314A6E00F89ECC /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		901FC1222431433600F89ECC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		901FC1252431433600F89ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		901FC1272431433600F89ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901FC12D2431439000F89ECC /* About Threes.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "About Threes.rtf"; sourceTree = "<group>"; };
+		901FC12F24314A6E00F89ECC /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				901FC1192431433200F89ECC /* AppDelegate.swift */,
 				901FC11B2431433200F89ECC /* SceneDelegate.swift */,
+				901FC12F24314A6E00F89ECC /* Card.swift */,
+				901FC12D2431439000F89ECC /* About Threes.rtf */,
 				901FC11D2431433200F89ECC /* ContentView.swift */,
 				901FC11F2431433600F89ECC /* Assets.xcassets */,
 				901FC1242431433600F89ECC /* LaunchScreen.storyboard */,
@@ -133,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901FC12E2431439000F89ECC /* About Threes.rtf in Resources */,
 				901FC1262431433600F89ECC /* LaunchScreen.storyboard in Resources */,
 				901FC1232431433600F89ECC /* Preview Assets.xcassets in Resources */,
 				901FC1202431433600F89ECC /* Assets.xcassets in Resources */,
@@ -149,6 +156,7 @@
 				901FC11A2431433200F89ECC /* AppDelegate.swift in Sources */,
 				901FC11C2431433200F89ECC /* SceneDelegate.swift in Sources */,
 				901FC11E2431433200F89ECC /* ContentView.swift in Sources */,
+				901FC13024314A6E00F89ECC /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
